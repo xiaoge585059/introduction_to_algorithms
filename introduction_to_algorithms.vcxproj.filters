@@ -27,6 +27,12 @@
     <ClCompile Include="chapter2.cpp">
       <Filter>源文件\chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="find_maximum_subarray.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_multiplication.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tools.h">

@@ -242,7 +242,7 @@ void test_count_inversions() {
 
 
 /* ²âÊÔ */
-//*
+/*
 int main() {
 	const int a_len = 10;
 	int a[a_len] = { 10, 1, 2, 7, 7, 6, 4, 5, 3, 9 };
