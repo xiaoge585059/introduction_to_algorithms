@@ -124,13 +124,21 @@ void heap_increase_key(int a[], int i, int key) {
 
 	a[i] = key;
 	int temp = 0;
+	/*
 	while (i > 0 && a[parent(i)] < a[i]) {
 		temp = a[i];
 		a[i] = a[parent(i)];
 		a[parent(i)] = temp;
 
 		i = parent(i);
+	} */
+
+	// 更高效地完成元素交换操作
+	while (i > 0 && a[parent(i)] < key) {
+		a[i] = a[parent(i)];
+		i = parent(i);
 	}
+	a[i] = key;
 }
 
 /* 将 key 值插入最大堆，堆的元素数加一，并维持最大堆性质 */
@@ -138,6 +146,18 @@ void max_heap_insert(int a[], int heap_size, int key) {
 	heap_size += 1;
 	a[heap_size - 1] = INT_MIN;
 	heap_increase_key(a, heap_size - 1, key);
+}
+
+/* 从最大堆中删除 i 节点，并维护最大堆性质，将 heap_size 减一 */
+void heap_delete(int a[], int heap_size, int i) {
+	if (a[i] > a[heap_size - 1]) {
+		a[i] = a[heap_size - 1];
+		max_heapify(a, heap_size, i);
+	} else {
+		heap_increase_key(a, i, a[heap_size - 1]);
+	}
+
+	// heap_size -= 1;
 }
 
 /* 测试优先队列的相关函数 */
@@ -150,6 +170,18 @@ void test_priority_queue() {
 	max_heap_insert(a, 10, 13);
 	heap_size += 1;
 	print_array(a, heap_size, "将值为 13 的节点插入到最大堆后：");
+	int max = heap_extract_max(a, heap_size);
+	heap_size -= 1;
+	print_array(a, heap_size, "将最大堆中最大值移出后：");
+	cout << "最大值为：" << max << endl;
+
+	cout << endl << "delete: " << endl;
+	int b[7] = { 15, 7, 9, 1, 2, 3, 8 };
+	int heap_size_b = 7;
+	print_array(b, heap_size_b, "原最大堆：");
+	heap_delete(a, heap_size_b, 4);
+	heap_size_b -= 1;
+	print_array(b, heap_size_b, "删除第 5 个元素后：");
 }
 
 
