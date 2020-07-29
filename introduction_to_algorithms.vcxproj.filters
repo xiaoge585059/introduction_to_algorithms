@@ -19,6 +19,9 @@
     <Filter Include="源文件\chapter4">
       <UniqueIdentifier>{ee4a6ab7-7ab6-4727-b34f-a58a276d5670}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter6">
+      <UniqueIdentifier>{573390ed-b9d9-43ed-baf9-4e045774284b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="matrix_multiplication.cpp">
       <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="heap_sort.cpp">
+      <Filter>源文件\chapter6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

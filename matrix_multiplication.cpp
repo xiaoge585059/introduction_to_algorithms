@@ -194,7 +194,7 @@ void test_strassen_square_matrix_multiply_recursive() {
 
 
 /* ≤‚ ‘ */
-//*
+/*
 int main() {
 	// test_square_matrix_multiply();
 	// test_matrix_add();

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="chapter2.cpp" />
     <ClCompile Include="find_maximum_subarray.cpp" />
+    <ClCompile Include="heap_sort.cpp" />
     <ClCompile Include="matrix_multiplication.cpp" />
     <ClCompile Include="tools.cpp" />
   </ItemGroup>
