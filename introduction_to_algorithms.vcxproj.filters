@@ -22,6 +22,9 @@
     <Filter Include="源文件\chapter6">
       <UniqueIdentifier>{573390ed-b9d9-43ed-baf9-4e045774284b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter7">
+      <UniqueIdentifier>{9e29e60d-c44e-4e0b-8e76-10b67527fed2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools.cpp">
@@ -39,9 +42,18 @@
     <ClCompile Include="heap_sort.cpp">
       <Filter>源文件\chapter6</Filter>
     </ClCompile>
+    <ClCompile Include="quick_sort.cpp">
+      <Filter>源文件\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="my_random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="my_random.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
