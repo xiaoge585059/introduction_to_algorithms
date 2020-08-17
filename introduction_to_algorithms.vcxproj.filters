@@ -25,6 +25,9 @@
     <Filter Include="源文件\chapter7">
       <UniqueIdentifier>{9e29e60d-c44e-4e0b-8e76-10b67527fed2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter8">
+      <UniqueIdentifier>{30a6a542-b91b-4603-aa6d-bbdae80eedde}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="my_random.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_time_sort.cpp">
+      <Filter>源文件\chapter8</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chapter2.cpp" />
+    <ClCompile Include="linear_time_sort.cpp" />
     <ClCompile Include="find_maximum_subarray.cpp" />
     <ClCompile Include="heap_sort.cpp" />
     <ClCompile Include="matrix_multiplication.cpp" />

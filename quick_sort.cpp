@@ -89,7 +89,7 @@ void test_randomized_quick_sort() {
 
 
 /* ≤‚ ‘ */
-//*
+/*
 int main() {
 	// test_quick_sort();
 	test_randomized_quick_sort();
