@@ -144,6 +144,7 @@
     <ClCompile Include="find_maximum_subarray.cpp" />
     <ClCompile Include="heap_sort.cpp" />
     <ClCompile Include="matrix_multiplication.cpp" />
+    <ClCompile Include="median_and_order_statistics.cpp" />
     <ClCompile Include="my_random.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="tools.cpp" />

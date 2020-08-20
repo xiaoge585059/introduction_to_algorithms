@@ -224,7 +224,7 @@ void test_bucket_sort() {
 
 
 /* ≤‚ ‘ */
-//*
+/*
 int main() {
 	// test_counting_sort();
 	// test_radix_sort();

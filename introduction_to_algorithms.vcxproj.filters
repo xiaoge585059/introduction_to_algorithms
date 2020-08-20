@@ -28,6 +28,9 @@
     <Filter Include="源文件\chapter8">
       <UniqueIdentifier>{30a6a542-b91b-4603-aa6d-bbdae80eedde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter9">
+      <UniqueIdentifier>{8b6f86e9-143f-49c2-8c03-d43f517a84b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools.cpp">
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="linear_time_sort.cpp">
       <Filter>源文件\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="median_and_order_statistics.cpp">
+      <Filter>源文件\chapter9</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
