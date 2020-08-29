@@ -143,10 +143,12 @@
     <ClCompile Include="linear_time_sort.cpp" />
     <ClCompile Include="find_maximum_subarray.cpp" />
     <ClCompile Include="heap_sort.cpp" />
+    <ClCompile Include="list.cpp" />
     <ClCompile Include="matrix_multiplication.cpp" />
     <ClCompile Include="median_and_order_statistics.cpp" />
     <ClCompile Include="my_random.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="stack_and_queue.cpp" />
     <ClCompile Include="tools.cpp" />
   </ItemGroup>
   <ItemGroup>

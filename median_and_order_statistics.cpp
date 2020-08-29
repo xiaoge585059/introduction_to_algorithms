@@ -148,7 +148,7 @@ void test_randomized_select_without_recursion() {
 
 
 /* ≤‚ ‘ */
-//*
+/*
 int main() {
 	// test_find_max_and_min();
 	// test_randomized_select();
